@@ -1,0 +1,30 @@
+nav{
+    height: 60px
+}
+
+nav .pos{
+    position: fixed;
+}
+
+main{
+    height: 100vh;
+    color: aqua;
+}
+
+.image{
+    background-image: url(../img/car.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.career{
+    background: linear-gradient(to right, blue, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.image_prof{
+    /* border: 5px solid red; */
+    /* justify-content: center; */
+    align-items: baseline;
+}
